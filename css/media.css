@@ -1,0 +1,84 @@
+@media(max-width:991px) {
+    .serv_box {
+        display: flex;
+        flex-direction: column;
+        align-items: baseline;
+    }
+
+    .service_content {
+        margin-top: 20px;
+        margin-left: 0;
+    }
+}
+
+@media(max-width:767px) {
+    h3 {
+        font-size: 22px;
+    }
+
+    .cp60 {
+        padding: 40px 15px;
+    }
+
+    .service_title h3 {
+        font-size: 22px;
+    }
+
+    .garantee_img img {
+        width: 80%;
+        padding: 20px 0px 20px 0px;
+    }
+
+    .btn-tel {
+        width: 35%;
+    }
+
+    .footer_box {
+        margin-bottom: 40px;
+    }
+}
+
+@media(max-width:575px) {
+    h1 {
+        font-size: 25px;
+    }
+
+    .garantee_img {
+        text-align: center;
+    }
+
+    .craft h2 {
+        font-size: 25px;
+    }
+
+    .contact h3 {
+        font-size: 25px;
+    }
+
+    .cta {
+        flex-direction: column;
+    }
+
+    .rev {
+        margin-top: 20px;
+    }
+
+    .cta h4 {
+        text-align: center;
+    }
+
+    .form-group label {
+        width: 100%;
+
+    }
+
+    .banner_image {
+        padding: 20px
+    }
+}
+
+@media(max-width:500px) {
+    .btn-tel {
+        width: auto;
+    }
+}
